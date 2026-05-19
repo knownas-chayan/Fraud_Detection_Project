@@ -45,20 +45,14 @@ fraud-detection/
 
 ## 🚀 Quick Start
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/fraud-detection.git
-cd fraud-detection
-```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Download the Dataset
+### 2. Download the Dataset
 
 Get the dataset from Kaggle: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
@@ -70,13 +64,13 @@ Place `creditcard.csv` in the `data/` directory.
 > kaggle datasets download -d mlg-ulb/creditcardfraud -p data/ --unzip
 > ```
 
-### 4. Train the Models
+### 3. Train the Models
 
 ```bash
 python train.py
 ```
 
-### 5. Launch the Dashboard
+### 6. Launch the Dashboard
 
 ```bash
 streamlit run app.py
@@ -151,18 +145,5 @@ See `requirements.txt` for full list. Key packages:
 
 ---
 
-## 🤝 Contributing
 
-1. Fork the repo
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
----
-
-## 🙏 Acknowledgements
-
-- [ULB Machine Learning Group](http://mlg.ulb.ac.be) for the dataset
-- Kaggle community for insights
-- Scikit-Learn, XGBoost, and Streamlit teams
