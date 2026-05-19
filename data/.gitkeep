@@ -1,0 +1,2 @@
+# Place creditcard.csv here
+# Download: kaggle datasets download -d mlg-ulb/creditcardfraud -p . --unzip
